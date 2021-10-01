@@ -1,0 +1,157 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+}
+
+.cell{
+    float:left;
+}
+.row{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+hr{
+    background-color: black;
+}
+
+.title{
+    margin:0 auto;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.wrap1{
+    width:1200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: red;
+    position:fixed;
+    left:50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index:1000;
+}
+
+.title-box{
+    background-color: gray;
+    margin:0 auto;
+    width:300px;
+    height: 100px;
+    color:white;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.wrap1-5{
+    width:1200px;
+    height: 75px;;
+    margin: 0 auto;
+    margin-top:100px;
+    background-color: orange;
+}
+
+.wrap2{
+    width:900px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: #ddd;
+    
+}
+
+.body-box{
+    width:210px;
+    height: 75px;
+    color:white;
+    font-size: medium;
+    margin-right: 20px;
+    background-color: green;
+    text-align: center;
+    padding-top:5px;
+    box-sizing: border-box;
+}
+
+.body-box.last{
+    margin-right: 0px;
+}
+
+.main-img{
+    margin-top: 20px;
+    width: 100%;
+    height:600px;
+    background-image: url("gg.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.wrap3{
+    width:1200px;
+    height:250px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.body2-box{
+    width:390px;
+    height: 250px;
+    margin-right: 15px;
+    background-color: #ddd;
+    padding-left: 20px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    transition:0.5s;
+}
+
+.body2-box:hover{
+	background-color:black;
+	color:white;
+}
+
+.body2-box.last{
+    margin-right: 0px;
+}
+
+.wrap-img{
+    margin-top: 20px;
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed ;
+    position: relative;
+}
+
+
+.body3-box{
+    width:550px;
+    height: 350px;
+    background-color:rgba(255,255,255,0.7);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:0 auto;
+    text-align: center;
+    position:absolute;
+    bottom: 15% ; 
+    left: 50% ;
+    transform: translate(-50%,0%) ;
+    box-sizing: border-box;
+}
+
+.footer{
+    margin-top: 20px;
+    width:auto;
+    height:150px;
+    background-color: #ddd;
+    text-align: center;
+    padding:50px;
+    box-sizing: border-box;
+}
